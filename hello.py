@@ -9,7 +9,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Hello World"
     #Controles para textos
-    text = ft.Text(value="Mi primer texto")
+    text = ft.Text(value="Mi primer texto", size=30, color="red")
     
     page.controls.append(text)
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
