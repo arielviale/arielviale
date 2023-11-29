@@ -10,7 +10,7 @@ def main(page: ft.Page):
     page.add(text)
     
     for i in range(1,11):
-        text.value = "Count" + str(i)
+        text.value = "Count: " + str(-i)
         page.update()
         sleep(1)
     
